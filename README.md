@@ -1,6 +1,13 @@
 # Általános infó, előkészület
 -  Git Bash letöltés: https://gitforwindows.org
--  Minden lenti parancs Git Bash terminálba írandó! 
+-  Minden lenti parancs Git Bash terminálba írandó!
+-  Git personal access token beállítása a gépeden:
+```bash
+cd ~
+echo "https://<git user name>:<git access token>:github.com > .git-credentials
+chmod 600 .git-credentials
+git config --global credential.helper store
+```
 
 # Munkafolyamat
 - Keress egy szimpatikus érettségit (https://www.oktatas.hu/kozneveles/erettsegi/feladatsorok)
