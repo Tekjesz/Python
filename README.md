@@ -4,7 +4,7 @@
 -  Git personal access token beállítása a gépeden:
 ```bash
 cd ~
-echo "https://<git user name>:<git access token>:github.com > .git-credentials
+echo "https://Tekjesz:<git personal access token>@github.com" > .git-credentials
 chmod 600 .git-credentials
 git config --global credential.helper store
 ```
@@ -22,6 +22,8 @@ git config --global credential.helper store
 
 # Parancsokhoz puska
 ### Bash parancsok
+- control c = control insert
+- control v = shift insert
 - mappa váltás (cd - change directory)
 ```bash
 cd <cél mappa neve>
